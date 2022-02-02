@@ -41,3 +41,32 @@ print ("Phan tu cua list sau khi them : ", list1)
 list1 = ['java', 'python', 'c++', 'python']
 print("So lan 'python' xuat hien trong List la : ", list1.count('python'))
 print("So lan 'java' xuat hien trong List la : ", list1.count('java'))
+
+list1 = ['java', 'python', 'c++']
+list2 = ['c++', 'sql']
+list1.extend(list2)
+print('List sau khi duoc mo rong them la: ', list1)
+
+list1 = ['java', 'python', 'c++', 'php', 'sql']
+print("Chi muc cua 'python' la: ", list1.index('python'))
+print("chi muc cua 'php' la: ", list1.index('php'))
+
+list1 = ['java', 'python', 'c++', 'php', 'sql']
+list1.insert(3, 'android')
+print("List sau khi duoc mo rong la: ", list1)
+
+list1 = ['java', 'python', 'c++', 'php', 'sql']
+list1.pop()
+print("List: ", list1)
+list1.pop(2)
+print("List: ", list1)
+
+list1 = ['java', 'python', 'c++', 'php', 'sql']
+list1.remove('c++')
+print('List: ', list1)
+list1.remove('java')
+print('List:', list1)
+
+fruits = ["apple", "banana", "guava"]
+del fruits[0]
+print(fruits)
