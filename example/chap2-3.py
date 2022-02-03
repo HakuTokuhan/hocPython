@@ -70,3 +70,23 @@ print('List:', list1)
 fruits = ["apple", "banana", "guava"]
 del fruits[0]
 print(fruits)
+
+list1 = ['java', 'python', 'c++', 'php', 'sql']
+list1.reverse()
+print('List bi dao nguoc: ', list1)
+
+fruits = ["apple", "banana", "guava"]
+fruits.clear()
+print(fruits)
+
+list.sort([reverse])
+
+vowels = ['e', 'a', 'u', 'o', 'i']
+print("Truoc khi sap xep: ",vowels)
+vowels.sort()
+print("Sau khi sap xep tang dan: ",vowels)
+vowels.sort(reverse=True)
+print("Sau khi sap xep giam dan: ",vowels)
+
+lst = [[1, 2, 3], [4, 5, 6]]
+print(lst)
