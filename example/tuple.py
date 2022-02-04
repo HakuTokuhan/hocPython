@@ -15,3 +15,9 @@ print(tup[0])
 print( tup[0][2])
 print( tup[1][0])
 
+tup = (1, 5, 3, 5, 6, 1, 1)
+print(tup.count(1))
+print(tup.count(4))
+
+tup=('a','b','c')
+print( tup.index('b'))
