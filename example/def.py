@@ -24,3 +24,11 @@ print(list_moi)
 list_goc = [10, 9, 8, 7, 6, 1, 2, 3, 4, 5]
 list_moi = list(map(lambda a: a*2 , list_goc))
 print(list_moi)
+
+def giaithua(n):
+    if n == 1:
+        return 1
+    else:
+    return (n * giaithua(n-1))
+num = int(input("Nhập số cần tính giai thừa: "))
+print("Giai thừa của", num, "là", giaithua(num))
