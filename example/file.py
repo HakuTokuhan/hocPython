@@ -64,3 +64,18 @@ position = fo.seek(0, 0)
 str = fo.read(10)
 print ("Chuoi da doc la : ", str)
 fo.close()
+
+import os
+os.mkdir("test")
+
+import os
+# Thay doi mot thu muc toi "/Bai giang/Python"
+os.chdir("/Bai giang/Python")
+
+import os
+# Lenh nay se cung cap vi tri thu muc hien tai
+os.getcwd()
+
+import os
+# Xoa thu muc "/tmp/test".
+os.rmdir( "/tmp/test" )
